@@ -51,6 +51,26 @@ body {
 	margin-right: 24px;
 }
 
+.left-cont h3 {
+	height: 44px;
+	width: 274px;
+	display: block;
+	background-color: #4aaaa5;
+	color: #fff;
+	font-size: 110%;
+	text-align: center;
+	padding-top: 16px;
+	margin-top: 135px;
+}
+.interest {
+	height: 204px;
+	width: 274px;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 56px;
+	background-color: #000;
+}
+
 .left-cont p {
 	display: inline;
 	font-family: arial, 'Helvetica Neue', helvetica, sans-serif;
