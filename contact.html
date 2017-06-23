@@ -42,25 +42,33 @@
       </div>
     </nav>
 
-    <div class="container col-md-offset-1">
+    <div class="container col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
 
+      <div class="panel panel-default left-cont">
+        <div class="panel-body">
+          <h2>Contact</h2>
 
-      <h2>Contact</h2>
+      	   <form method="post" action="mailto:bonnieho@rice.edu?subject=information request from portfolio site" name="contact">
+			       
+            <div class="input-group input-group-sm">
+             <label>Name</label>
+			       <input type="text" name="name" value="John Smith" class="form-control" placeholder="John Smith" aria-describedby="Name">
+            </div>
+            
+            <div class="input-group input-group-sm">
+			       <label>Email</label>
+			       <input type="text" name="email" value="example@gmail.com" class="form-control" placeholder="example@gmail.com" aria-describedby="Email">
+            </div>
 
-      	<form method="post" action="mailto:bonnieho@rice.edu?subject='information request from portfolio site'" name="contact">
-			<label>Name</label>
-			<input type="text" name="name" value="John Smith" />
+			       <label>Message</label>
+			       <textarea rows="10" cols="60" name="message"></textarea>
 
-			<label>Email</label>
-			<input type="text" name="email" value="example@gmail.com" />
+			       <input class="send" type="submit" name="submit" value="Submit" />
 
-			<label>Message</label>
-			<textarea rows="10" cols="60" name="message"></textarea>
-
-			<input class="send" type="submit" name="submit" value="Submit" />
-
-      	</form>
-
+      	   </form>
+ 
+        </div>
+      </div>
   
 
 
